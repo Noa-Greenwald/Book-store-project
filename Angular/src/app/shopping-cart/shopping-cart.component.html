@@ -1,0 +1,21 @@
+<div *ngIf="!isProperties">
+<ul *ngFor="let product of listOfPurchaseToShow">
+<li>
+
+{{product.productName}}-
+{{product.categoryId}}-
+{{product.description}}-
+{{product.matchAge}}-
+{{product.price}}-
+{{product.picture}}
+<button (click)="deleteProduct(product)">מחק</button>
+</li>
+    </ul>
+
+
+<p>סכום הקניה:{{amount}}</p>
+<button (click)="finishShopping(amount)">סיום קניה</button>
+</div>
+<div *ngIf="isProperties">
+    <app-pay-purchase [amount]="currentAmount" ></app-pay-purchase>
+</div>

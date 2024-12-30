@@ -1,0 +1,57 @@
+.payment-amount {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem; /* מרווח בין המסגרות */
+  }
+  
+  .form-section {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 0.8rem; /* צמצום הריווח הפנימי */
+    background-color: #f9f9f9;
+    max-width: 90%; /* צמצום הרוחב הכולל */
+  }
+  
+  .credit-card-section {
+    background-color:  #ccc;
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem; /* מרווח בין שדות */
+  }
+  
+  .btn-primary {
+    font-size: 1rem;
+    font-weight: bold;
+    width: auto; /* התאמת רוחב הכפתור לתוכן */
+  }
+  
+  .button-container {
+    text-align: left; /* יישור לשמאל */
+    margin-top: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .form-layout {
+      grid-template-columns: 1fr; /* עיצוב לטור יחיד במסכים קטנים */
+    }
+  
+    .form-section {
+      max-width: 100%; /* ניצול רוחב מלא במסכים קטנים */
+    }
+  }
+  

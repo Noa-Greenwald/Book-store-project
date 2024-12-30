@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Bll\bin\Debug\net7.0\Bll.deps.json
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Bll\bin\Debug\net7.0\Bll.dll
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Bll\bin\Debug\net7.0\Bll.pdb
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Bll\obj\Debug\net7.0\Bll.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Bll\obj\Debug\net7.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Bll\obj\Debug\net7.0\Bll.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Bll\obj\Debug\net7.0\Bll.AssemblyInfo.cs
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Bll\obj\Debug\net7.0\Bll.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Bll\obj\Debug\net7.0\Bll.dll
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Bll\obj\Debug\net7.0\refint\Bll.dll
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Bll\obj\Debug\net7.0\Bll.pdb
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Bll\obj\Debug\net7.0\ref\Bll.dll

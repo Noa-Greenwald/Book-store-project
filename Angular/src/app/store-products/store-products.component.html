@@ -1,0 +1,41 @@
+<button (click)="filterAge()" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer; margin: 10px;">
+        סינון עפי גיל
+      </button>
+      <input type="number" [(ngModel)]="matchAge" style="padding: 5px; margin: 0 10px; width: 100px; border-radius: 5px; border: 1px solid #ccc; font-size: 16px;">
+      
+      <button (click)="sortListup()" style="padding: 10px 20px; background-color: #2196F3; color: white; border: none; border-radius: 5px; cursor: pointer; margin: 10px;">
+        מהנמוך לגבוה
+      </button>
+      <button (click)="sortListdown()" style="padding: 10px 20px; background-color: #FF5722; color: white; border: none; border-radius: 5px; cursor: pointer; margin: 10px;">
+        מהגבוה לנמוך
+      </button>
+      <label for="category">Category:</label>
+      <select id="category" [(ngModel)]="selectedCategoryName" (change)="filterByCategory(selectedCategoryName)">
+        <option [ngValue]="null" disabled selected>בחר קטגוריה לסינון</option>
+        <option *ngFor="let option of categories" [ngValue]="option.categoryName">
+          {{ option.categoryName }}
+        </option>
+      </select>
+      
+     
+
+
+      <div *ngIf="!isProperties" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
+        <ul *ngFor="let product of productList" style="list-style: none; padding: 0; background-color: #fff; border: 1px solid #ddd; border-radius: 8px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+          <button (click)="inputBook(product)" style="text-align: left; padding: 10px; border: none; background: none; width: 100%; cursor: pointer;">
+            <li style="font-size: 16px; color: #333; padding: 10px; border-bottom: 1px solid #ddd;">
+              <img [src]="product.picture" alt="{{product.productName}}" style="width: 100%; height: auto; border-radius: 5px;" />
+              <p>
+                {{product.productId}} - {{product.productName}} - {{product.categoryId}} - {{product.companyId}} - {{product.description}} - {{product.matchAge}} - {{product.price}} ₪
+              </p>
+            </li>
+          </button>
+        </ul>
+        <button (click)="showAll()">חזרה לעמוד הספרים המקורי</button>
+      </div>
+      
+      
+      <div *ngIf="isProperties">
+        <app-show-product [product]="currentProduct" (returntostore)="returntostore()"></app-show-product>
+      </div>
+      

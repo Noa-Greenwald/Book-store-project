@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Common_Dto_Enteties\bin\Debug\net7.0\Common_Dto_Enteties.deps.json
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Common_Dto_Enteties\bin\Debug\net7.0\Common_Dto_Enteties.dll
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Common_Dto_Enteties\bin\Debug\net7.0\Common_Dto_Enteties.pdb
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Common_Dto_Enteties\obj\Debug\net7.0\Common_Dto_Enteties.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Common_Dto_Enteties\obj\Debug\net7.0\Common_Dto_Enteties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Common_Dto_Enteties\obj\Debug\net7.0\Common_Dto_Enteties.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Common_Dto_Enteties\obj\Debug\net7.0\Common_Dto_Enteties.AssemblyInfo.cs
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Common_Dto_Enteties\obj\Debug\net7.0\Common_Dto_Enteties.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Common_Dto_Enteties\obj\Debug\net7.0\Common_Dto_Enteties.dll
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Common_Dto_Enteties\obj\Debug\net7.0\refint\Common_Dto_Enteties.dll
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Common_Dto_Enteties\obj\Debug\net7.0\Common_Dto_Enteties.pdb
+C:\Users\User\Desktop\תכנות\C#\HomeWork\HomeWork\Common_Dto_Enteties\obj\Debug\net7.0\ref\Common_Dto_Enteties.dll

@@ -1,0 +1,75 @@
+
+   <form [formGroup]="formCustomer" class="container p-4 border rounded"  dir="rtl">
+    <p class="payment-amount">סכום לתשלום: {{amount}} ₪</p>
+    <div class="form-layout">
+      <div class="form-section">
+        <h1 class="text-primary">פרטי לקוח</h1>
+        <div class="mb-3">
+          <label for="firstName" class="form-label">שם פרטי</label>
+          <input type="text" id="firstName" formControlName="firstName" class="form-control" />
+          <div *ngIf="formCustomer.controls.firstName.invalid && formCustomer.controls.firstName.touched" class="text-danger">
+            *שדה חובה
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="lastName" class="form-label">שם משפחה</label>
+          <input type="text" id="lastName" formControlName="lastName" class="form-control" />
+          <div *ngIf="formCustomer.controls.lastName.invalid && formCustomer.controls.lastName.touched" class="text-danger">
+            *שדה חובה
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">מייל</label>
+          <input type="email" id="email" formControlName="email" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">פלאפון</label>
+          <input type="text" id="phone" formControlName="phone" class="form-control" />
+        </div>
+        <br>
+        
+        <h1 class="text-primary mt-4">כתובת לקוח</h1>
+        <div class="mb-3">
+          <label for="street" class="form-label">כתובת</label>
+          <input type="text" id="street" formControlName="street" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="floor" class="form-label">קומה</label>
+          <input type="text" id="floor" formControlName="floor" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="city" class="form-label">עיר</label>
+          <input type="text" id="city" formControlName="city" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="mikud" class="form-label">מיקוד</label>
+          <input type="text" id="mikud" formControlName="mikud" class="form-control" />
+        </div>
+      </div>
+  
+      <div class="form-section credit-card-section">
+        <h1 class="text-light">פרטי כרטיס אשראי</h1>
+        <div class="mb-3">
+          <label for="CreditCardNumber" class="form-label text-light">מספר כרטיס אשראי</label>
+          <input type="text" id="CreditCardNumber" formControlName="CreditCardNumber" class="form-control" />
+          <div *ngIf="formCustomer.controls.CreditCardNumber.invalid && formCustomer.controls.CreditCardNumber.touched" class="text-danger">
+            *שדה חובה
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="cvv" class="form-label text-light">CVV</label>
+          <input type="text" id="cvv" formControlName="cvv" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="expiryDate" class="form-label text-light">תוקף כרטיס אשראי</label>
+          <input type="text" id="expiryDate" formControlName="expiryDate" placeholder="MM/YY" class="form-control" maxlength="5" />
+        </div>
+        <div class="mb-3">
+          <label for="tz" class="form-label text-light">תעודת זהות בעל הכרטיס</label>
+          <input type="text" id="tz" formControlName="tz" class="form-control" />
+        </div>
+      </div>
+    </div>
+    <button [disabled]="!formCustomer.valid" (click)="save()" class="btn btn-primary w-100 mt-4" dir="ltr">סיים קניה</button>
+  </form>
+  

@@ -1,0 +1,87 @@
+<div class="auth-container">
+    <!-- טופס התחברות -->
+    <form *ngIf="isLoginMode" (ngSubmit)="login()">
+      <h2>התחברות</h2>
+      <div class="input-group">
+        <label for="email">אימייל:</label>
+        <input
+          type="email"
+          id="email"
+          [(ngModel)]="loginData.email"
+          name="email"
+          placeholder="הכנס אימייל"
+          required
+        />
+      </div>
+      <div class="input-group">
+        <label for="customerName">שם משתמש:</label>
+        <input
+          type="text"
+          id="customerName"
+          [(ngModel)]="loginData.customerName"
+          name="customerName"
+          placeholder="הכנס שם משתמש"
+          required
+        />
+      </div>
+      <button type="submit" class="submit-btn" (click)="CheckIfEMailExists(loginData.email)">התחבר</button>
+      <p>
+        אין לך חשבון?
+        <a href="javascript:void(0)" (click)="toggleMode()">בוא להירשם</a>
+      </p>
+    </form>
+  
+    <!-- טופס רישום -->
+    <form *ngIf="!isLoginMode" (ngSubmit)="register()">
+      <h2>רישום</h2>
+      <div class="input-group">
+        <label for="registerCustomerName">שם מלא:</label>
+        <input
+          type="text"
+          id="registerCustomerName"
+          [(ngModel)]="registerData.customerName"
+          name="registerCustomerName"
+          placeholder="הכנס שם מלא"
+          required
+        />
+      </div>
+      <div class="input-group">
+        <label for="registerEmail">אימייל:</label>
+        <input
+          type="email"
+          id="registerEmail"
+          [(ngModel)]="registerData.email"
+          name="registerEmail"
+          placeholder="הכנס אימייל"
+          required
+        />
+      </div>
+      <div class="input-group">
+        <label for="registerPhone">טלפון:</label>
+        <input
+          type="tel"
+          id="registerPhone"
+          [(ngModel)]="registerData.phone"
+          name="registerPhone"
+          placeholder="הכנס טלפון"
+          required
+        />
+      </div>
+      <div class="input-group">
+        <label for="registerBirthday">תאריך לידה:</label>
+        <input
+          type="date"
+          id="registerBirthday"
+          [(ngModel)]="registerData.birthday"
+          name="registerBirthday"
+          required
+        />
+      </div>
+      <button type="submit" class="submit-btn">הרשם</button>
+      <p>
+        כבר יש לך חשבון?
+        <a href="javascript:void(0)" (click)="toggleMode()">חזור להתחברות</a>
+      </p>
+    </form>
+  </div>
+  
