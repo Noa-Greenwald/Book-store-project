@@ -35,4 +35,13 @@ listOfPurchase:Product[]=[];
   {
      return Promise.resolve(this.listOfPurchase);
   }
+  registerCustomer(customerData: any): Observable<any> {
+    const url = 'http://localhost:5133/api/Customer/Register';
+    return this.http.post(url, customerData);
+  }
+  private apiUrlCustomer = 'http://localhost:5252/api/Costumer/InsertCustomer';
+
+  insertCustomer(customer: Customer): Observable<Customer> {
+    return this.http.post<Customer>(this.apiUrlCustomer, customer);
+  }
 }

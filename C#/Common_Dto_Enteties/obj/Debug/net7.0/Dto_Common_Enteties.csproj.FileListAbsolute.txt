@@ -1,0 +1,48 @@
+C:\Users\User\Desktop\פרויקט ANGULAR & C#\C#\פרויקט סופי!\Common_Dto_Enteties\bin\Debug\net7.0\Dto_Common_Enteties.deps.json
+C:\Users\User\Desktop\פרויקט ANGULAR & C#\C#\פרויקט סופי!\Common_Dto_Enteties\bin\Debug\net7.0\Dto_Common_Enteties.dll
+C:\Users\User\Desktop\פרויקט ANGULAR & C#\C#\פרויקט סופי!\Common_Dto_Enteties\bin\Debug\net7.0\Dto_Common_Enteties.pdb
+C:\Users\User\Desktop\פרויקט ANGULAR & C#\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\פרויקט ANGULAR & C#\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\פרויקט ANGULAR & C#\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\פרויקט ANGULAR & C#\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.AssemblyInfo.cs
+C:\Users\User\Desktop\פרויקט ANGULAR & C#\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\פרויקט ANGULAR & C#\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.dll
+C:\Users\User\Desktop\פרויקט ANGULAR & C#\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\refint\Dto_Common_Enteties.dll
+C:\Users\User\Desktop\פרויקט ANGULAR & C#\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.pdb
+C:\Users\User\Desktop\פרויקט ANGULAR & C#\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\ref\Dto_Common_Enteties.dll
+C:\Users\User\Desktop\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\bin\Debug\net7.0\Dto_Common_Enteties.deps.json
+C:\Users\User\Desktop\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\bin\Debug\net7.0\Dto_Common_Enteties.dll
+C:\Users\User\Desktop\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\bin\Debug\net7.0\Dto_Common_Enteties.pdb
+C:\Users\User\Desktop\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.AssemblyInfo.cs
+C:\Users\User\Desktop\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.dll
+C:\Users\User\Desktop\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\refint\Dto_Common_Enteties.dll
+C:\Users\User\Desktop\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.pdb
+C:\Users\User\Desktop\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\ref\Dto_Common_Enteties.dll
+C:\Users\User\Desktop\פרוייקטים\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\bin\Debug\net7.0\Dto_Common_Enteties.deps.json
+C:\Users\User\Desktop\פרוייקטים\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\bin\Debug\net7.0\Dto_Common_Enteties.dll
+C:\Users\User\Desktop\פרוייקטים\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\bin\Debug\net7.0\Dto_Common_Enteties.pdb
+C:\Users\User\Desktop\פרוייקטים\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\פרוייקטים\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\פרוייקטים\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\פרוייקטים\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.AssemblyInfo.cs
+C:\Users\User\Desktop\פרוייקטים\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\פרוייקטים\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.dll
+C:\Users\User\Desktop\פרוייקטים\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\refint\Dto_Common_Enteties.dll
+C:\Users\User\Desktop\פרוייקטים\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.pdb
+C:\Users\User\Desktop\פרוייקטים\פרויקט ANGULAR & C\C#\פרויקט סופי!\Common_Dto_Enteties\obj\Debug\net7.0\ref\Dto_Common_Enteties.dll
+C:\Users\User\Desktop\פרוייקטים\BookStoreProject\C#\Common_Dto_Enteties\bin\Debug\net7.0\Dto_Common_Enteties.deps.json
+C:\Users\User\Desktop\פרוייקטים\BookStoreProject\C#\Common_Dto_Enteties\bin\Debug\net7.0\Dto_Common_Enteties.dll
+C:\Users\User\Desktop\פרוייקטים\BookStoreProject\C#\Common_Dto_Enteties\bin\Debug\net7.0\Dto_Common_Enteties.pdb
+C:\Users\User\Desktop\פרוייקטים\BookStoreProject\C#\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\פרוייקטים\BookStoreProject\C#\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\פרוייקטים\BookStoreProject\C#\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\פרוייקטים\BookStoreProject\C#\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.AssemblyInfo.cs
+C:\Users\User\Desktop\פרוייקטים\BookStoreProject\C#\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\פרוייקטים\BookStoreProject\C#\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.dll
+C:\Users\User\Desktop\פרוייקטים\BookStoreProject\C#\Common_Dto_Enteties\obj\Debug\net7.0\refint\Dto_Common_Enteties.dll
+C:\Users\User\Desktop\פרוייקטים\BookStoreProject\C#\Common_Dto_Enteties\obj\Debug\net7.0\Dto_Common_Enteties.pdb
+C:\Users\User\Desktop\פרוייקטים\BookStoreProject\C#\Common_Dto_Enteties\obj\Debug\net7.0\ref\Dto_Common_Enteties.dll

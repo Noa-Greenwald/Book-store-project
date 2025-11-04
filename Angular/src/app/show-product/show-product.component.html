@@ -1,15 +1,16 @@
 <button (click)="inputBook()">return to store</button>
-<div>
+<div style="list-style: none; padding: 0;margin-left: 38%;text-align: center; background-color: #fff; border: 1px solid #ddd; border-radius: 8px; width: 400px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+<img [src]="product.picture" alt="{{product.productName}}" style="width: 100%; height: auto; border-radius: 5px;" />
 
-{{product.productId}}-
-{{product.productName}}-
-{{product.categoryId}}-
-{{product.companyId}}-
-{{product.description}}-
-{{product.matchAge}}-
-{{product.price}}-
-{{product.picture}}-
-{{product.lastUpdatedDate}}
+{{product.productName}}
+<br>
+{{product.description}}
+<br>
+{{product.matchAge}}
+<br>
+{{product.price}}₪
+<br>
+
   <button (click)="addToShoppingCart(product)">הוסף לסל קניות</button>
 
 

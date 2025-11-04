@@ -11,7 +11,7 @@ CREATE TABLE Company (
 CREATE TABLE Customer (
     customerId INT PRIMARY KEY,
     customerName VARCHAR(255) NOT NULL,
-    phone BIGINT NOT NULL,
+    phone BIGINT NOT ,NULL
     email VARCHAR(255) NOT NULL,
     birthday DATE NOT NULL
 );
@@ -85,16 +85,17 @@ VALUES
 (2, 'מרים מילר', '050-7654321', 'm54321@gmail.com', '1990-08-22'),
 (3, 'מיכאל יעקבי', '050-1122334', 'michael@gmail.com', '1978-11-10');
 
+
 INSERT INTO Product (productId, productName, categoryId, companyId, description, matchAge, price, picture, lastUpdatedDate)
 VALUES
-(1, 'קשר גורדי', 1, 1, 'ספר מתח ישראלי על חקירה ורצח', 14, 79.90, 'assets/images/thriller1.jpg', '1990-01-10'),
-(2, 'סיפור ברובע', 1, 2, 'ספר לעומק הנפש', 20, 89.90, 'assets/images/adventure1.jpg', '2024-07-15'),
-(3, 'המסע הארוך שך נאן', 2, 1, 'המסע של ילדה בתקופת השואה אצל סבתא שלה', 13, 59.90, 'assets/images/adventure2.jpg', '2023-11-25'),
-(4, 'האסון של שלג', 3, 3, 'מדע בדיוני בעולם פוסט-אפוקליפטי', 15, 79.90, 'assets/images/scifi1.jpg', '2023-10-05'),
-(5, 'המשחק של אנדר', 3, 2, 'סדרת מדע בדיוני עם קרב בין כוכבים', 16, 89.90, 'assets/images/scifi2.jpg', '2024-02-01'),
-(6, 'הארי פוטר ואבן החכמים', 4, 1, 'ספר פנטזיה קסום על ילד עם כוחות מיוחדים', 13, 79.90, 'assets/images/fantasy1.jpg', '2024-01-15'),
-(7, 'ההוביט', 1, 1, 'סיפור פנטזיה עם גיבור קטן בהרפתקאות גדולות', 12, 69.90, 'assets/images/fantasy2.jpg', '2023-12-01'),
-(8, 'לחלום מחדש', 3, 1, 'דרמה משפחתית על בני נוער המתמודדים עם אתגרים', 16, 79.90, 'assets/images/drama1.jpg', '2023-11-10');
+(1, 'קשר גורדי', 1, 1, 'ספר מתח ישראלי על חקירה ורצח', 14, 79.90, 'https://www.sifreiorhachaim.co.il/wp-content/uploads/2024/01/2090300.jpg', '1990-01-10'),
+(2, 'סיפור ברובע', 1, 2, 'ספר לעומק הנפש', 20, 89.90, 'https://www.sifreiorhachaim.co.il/wp-content/uploads/2024/03/2306.jpg', '2024-07-15'),
+(3, 'המסע הארוך של נאן', 2, 1, 'המסע של ילדה בתקופת השואה אצל סבתא שלה', 13, 59.90, 'https://www.sifreiorhachaim.co.il/wp-content/uploads/2022/01/2070328.jpg', '2023-11-25'),
+(4, 'החורף של שירי', 3, 3, 'סיפור על ילדה שכלל לא אהבה חורף אבל הוא אהב אותה', 15, 79.90, 'https://www.sifreiorhachaim.co.il/wp-content/uploads/2022/01/2070300.jpg', '2023-10-05'),
+(5, 'לנה', 3, 2, 'כשלנה בוחרת להתגייר והעולם עוצר מלכת', 16, 89.90, 'https://www.sifreiorhachaim.co.il/wp-content/smush-webp/2021/06/1090434-13.jpg.webp', '2024-02-01'),
+(6, 'דופליקטים', 4, 1, 'ספר פנטזיה קסום על ילד עם כוחות מיוחדים', 13, 79.90, 'https://www.sifreiorhachaim.co.il/wp-content/uploads/2023/09/2239-1.jpg', '2024-01-15'),
+(7, 'לוחמי הצללים', 1, 1, 'סיפור פנטזיה עם גיבור קטן בהרפתקאות גדולות', 12, 69.90, 'https://www.sifreiorhachaim.co.il/wp-content/uploads/2023/02/1464.jpg', '2023-12-01'),
+(8, 'לא הפסקתי לחלום', 3, 1, 'דרמה משפחתית על בני נוער המתמודדים עם אתגרים', 16, 79.90, 'https://www.sifreiorhachaim.co.il/wp-content/uploads/2023/02/2170-2.jpg', '2023-11-10');
 
 INSERT INTO Purchase (purchaseId, customerId, purchaseDate, amountPay, remark)
 VALUES
@@ -121,3 +122,6 @@ INSERT INTO Customer (customerId, customerName, phone, email, birthday) VALUES
 ALTER TABLE Product ALTER COLUMN price FLOAT;
 SELECT * FROM Product;
 select * from Customer
+DELETE FROM Product;
+ALTER TABLE Customer
+alter COLUMN phone VARCHAR(20) NOT NULL;

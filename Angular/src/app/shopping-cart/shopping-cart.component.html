@@ -1,13 +1,14 @@
+
 <div *ngIf="!isProperties">
 <ul *ngFor="let product of listOfPurchaseToShow">
 <li>
+<img [src]="product.picture" alt="{{product.productName}}" style="width: 10%; height: auto; border-radius: 5px;" />
 
 {{product.productName}}-
 {{product.categoryId}}-
 {{product.description}}-
 {{product.matchAge}}-
-{{product.price}}-
-{{product.picture}}
+{{product.price}}
 <button (click)="deleteProduct(product)">מחק</button>
 </li>
     </ul>
