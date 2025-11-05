@@ -1,21 +1,38 @@
-Book Store Project
+# Book Store Project
 
 Full-Stack Application | Angular 18 · C# (.NET) · SQL Server
 
-A full-stack web application that simulates a complete bookstore management system.
-The project is built using a multi-layer architecture with a clear separation between presentation, business logic, and data access layers.
+A full-stack web application simulating a comprehensive bookstore management system.  
+This project demonstrates robust architecture practices with distinct presentation, business logic, and data access layers.
 
-Main Features:
+It serves as a practical learning platform for developing scalable, maintainable, and modern web applications.
 
--Manage and display books (Create, Read, Update, Delete)
+## Main Features
 
--Responsive UI built with Angular 18
+- Manage and display books (Create, Read, Update, Delete)
+- User-friendly, responsive UI built with Angular 18
+- RESTful API in C# (.NET)
+- SQL Server database for efficient data storage and queries
+- Modular, scalable design with an emphasis on clean code
 
--RESTful API implemented in C# (.NET)
+## Technologies Used
 
--SQL Server database for data storage and queries
+### Frontend:
+- Angular 18
+- RxJS
+- TypeScript
 
--Emphasis on clean architecture, maintainability, and scalability
+### Backend:
+- C# (.NET)
+- ASP.NET Web API
 
-Key Focus:
-Hands-on practice in full-stack development, component-based design, and structured server-client communication.
+### Database:
+- SQL Server
+
+### Development Tools:
+- Angular CLI
+- Jasmine / Karma
+
+## Key Focus
+
+This project provides hands-on practice in building full-stack applications using modern frameworks, component-based UI architecture, and structured server-client communication.
